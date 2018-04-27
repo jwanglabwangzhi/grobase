@@ -1,9 +1,5 @@
-title easist github process
-color 16
-
-
 echo starting
-echo The directory is：%cd%
+echo The directory is: %cd%
 
 echo add all
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -14,7 +10,7 @@ echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo;
 echo commit to local reposity
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-set /p declation=modify input:
+set /p declation=input commit words:
 git commit -m "%declation%"
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
