@@ -2,11 +2,16 @@
 ## Description
 This is a nascent RNA database from GRO-Seq.  
 ## Here is the api doc.
-1 get 
-function: get a dict of species, cell lines, treatments;
-method: get;
-url: http://39.105.21.162:8000/api/species_json/;
-results:
+1 get three select dict  
+
+function: get a dict of species, cell lines, treatments;  
+
+method: get;  
+
+url: http://39.105.21.162:8000/api/species_json/;  
+
+results:  
+
 ```
 [
     {
