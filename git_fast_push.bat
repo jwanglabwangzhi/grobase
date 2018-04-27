@@ -15,7 +15,7 @@ git commit -m "%declation%"
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 echo;
-git remote add origin https://github.com/jwanglabwangzhi/grobase.git
+
 echo push to github
 echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 git push origin master
