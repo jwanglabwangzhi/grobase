@@ -1,0 +1,229 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background:white;
+    font-size:100%;
+}
+
+.fixed_div{
+    background: #ffddbb; 
+  
+    float:left;
+    display:block;
+    width:100%;
+    position:fixed;
+    box-sizing:border-box;
+    z-index:9999;
+    height:10em;
+} 
+
+
+
+
+/***********************************header***************************/
+.wz_header_div{
+    position:relative;
+    
+    padding: 1em;
+}
+
+.wz_head_font{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.wz_head_font_name{
+    color: white;
+    font-size:6em;
+    line-height:1em;
+    font-family:"Shadows Into Light", cursive;
+    margin-right:0.9em;
+    text-transform:uppercase;
+}
+
+.wz_head_font_date{
+    color: #2ecc71;
+    font-size:4em;
+    line-height:1em;
+    font-family:"Shadows Into Light", cursive;
+}   
+
+/*  ********************导航栏****************************************  */
+#wz_nav_div{ 
+
+    float:left;
+    display:block;
+    box-sizing:border-box;
+    z-index:9999;
+    display:block;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#ffddbb;
+
+}
+/*position把导航栏定位到顶部  */
+
+#wz_nav_ul{
+    list-style-type:none;
+    width:100%; 
+    height:2em; 
+    background:#bebebe;
+    margin:0 auto
+
+      
+}
+/*第一个属性删除圆点，二三属性把外边距和内边距设置为 0  */
+
+#wz_nav_li{
+    height:2em;
+    display:inline; 
+    width:13%;
+    padding:1em;
+
+}
+
+
+/*使用 float 来把块元素滑向彼此。*/
+
+#wz_nav_a{  
+    display:inline-block; 
+    padding:0; 
+    height:2em; 
+    line-height:2em; 
+    color:#FFF; 
+    font-size:1em;  
+}
+/* 把链接显示为块元素可使整个链接区域可点击（不仅仅是文本），同时也允许我们规定宽度。一般改改width，从而能看出来效果 */
+
+#wz_nav_a:link,#wz_nav_a:visited{
+    font-weight:bold;
+    color:#ffddbb;
+    background-color:#bebebe;
+    text-align:center;
+
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#wz_nav_a:hover,#wz_nav_a:active{
+    background-color:#cc0000;
+}
+
+
+
+/*############################################selector#######################*/
+/*这里设margin-top没有办法，因为上面设的fixed*/
+.app-9{
+    background-color:#ffddbb;
+    margin-top:10em;
+    float:left;
+    width:100%;
+    display:block; 
+    padding:1em;
+}
+
+.three_grid{
+    margin:0px;  
+    padding:0px;     
+    width:33.3%;
+    float:left;
+    display:block;
+    height:23em;
+}  
+
+.ul-h2{
+    text-align:center;
+}
+ 
+  
+/*上面两部分是每次样式主要的修改的地方。*/
+
+.ul-selector{
+    margin:1em 5em 0em 5em;
+    padding:0px; 
+    text-align:center;    
+    list-style-type:none;
+    display: block;
+    border:0.5em solid white;
+    box-shadow: 0 50px 50px -45px white inset,1px -110px 110px -105px white inset;   
+    position:relative;
+    overflow-y: auto;
+    overflow-x: hidden;   
+    min-height:15em;
+    max-height:15em;
+}
+
+
+
+.list-group-item {
+  height: 3em;
+  margin: 0.1em;
+  font-size:1.5em;  
+  font-family:Times, TimesNR, 'New Century Schoolbook', Georgia,Georgia,Serif"Times New Roman";
+  background-color:#e35885;
+}
+
+span{  
+  display:block;
+}
+
+.list-group-item-active {
+  background-color:red;
+}    
+    
+
+
+.list-group-item :hover{
+    height:3em;
+    background:blue;
+}
+
+
+
+/*############################################table部分#######################*/
+table {
+ border: 2px solid #42b983;
+ border-radius: 3px;
+ background-color: #fff;
+}
+
+th {
+ background-color: #42b983;
+ color: rgba(255,255,255,0.66);
+ cursor: pointer;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -user-select: none;
+}
+
+td {
+ background-color: #f9f9f9;
+}
+
+th, td {
+ min-width: 120px;
+ padding: 10px 20px;
+}
+
+
+.li-page {
+  display: inline;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.42857143;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-left: -1px;
+  cursor: pointer;
+  color: #0275d8;
+}  
+
+.li-active{
+ background-color:blue;
+}
+
+
