@@ -2,7 +2,7 @@
 ## Description
 This is a nascent RNA database from GRO-Seq.  
 ## Here is the api doc.
-1 get three select dict  
+### 1 get three select dict  
 
 function: get a dict of species, cell lines, treatments;  
 
@@ -36,6 +36,6 @@ results:
                         "source": 1
                     },
 ```
-
+### 2 get 
 
 
