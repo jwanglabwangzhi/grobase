@@ -8,7 +8,7 @@ function: get a dict of species, cell lines, treatments;
 
 method: get;  
 
-url: http://39.105.21.162:8000/api/species_json/;  
+url: http://39.105.21.162/api/species_json/;  
 
 results:  
 
